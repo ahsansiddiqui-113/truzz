@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  color: black;
+}
+
+.btn-sty {
+  -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 63.8%, 85% 100%, 0% 100%, 0% 40%);
+  clip-path: polygon(15% 0%, 100% 0%, 100% 63.8%, 85% 100%, 0% 100%, 0% 40%);
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+}
+
+.metric input:checked ~ label svg {
+  opacity: 1;
+}
